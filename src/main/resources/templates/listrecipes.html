@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Photo Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap" rel="stylesheet">
 </head>
 <style>
     html {
@@ -14,6 +17,27 @@
     }
 </style>
 <body>
+    <h1>Recipe Photo Gallery</h1>
+    <ul class="nav">
+        <li><a class="active" href="/">My Recipe Book</a></li>
+        <li><a href="/listrecipes">List Recipes</a></li>
+        <li><a href="/omelette">Chinese Omelette</a></li>
+        <li><a href="/bananabread">Banana Bread</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+
+    <div class="reciperow">
+        <div class="columnphoto">
+            <a href="/bananabread"><img id="bananaphoto" src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread-4.jpg?fit=1360%2C1360&ssl=1"
+                                        alt="banana bread" style="width:100%"></a>
+            <figcaption class="caption">Banana Bread</figcaption>
+        </div>
+        <div class="columnphoto">
+            <a href="/omelette"><img id="omelettephoto" src="https://www.seriouseats.com/2019/01/20190114-layered-omelet-vicky-wasik-4.jpg"
+                                        alt="omelette and rice" style="width:100%"></a>
+            <figcaption class="caption">Chinese-Layered Omelette</figcaption>
+        </div>
+    </div>
 
 </body>
 </html>

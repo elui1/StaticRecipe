@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org"></html>
-<link rel="stylesheet" type="text/css" href="styles.css"></link>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Banana Bread Recipe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Banana Bread Recipe</h1>
@@ -12,27 +14,34 @@
         <li><a href="/listrecipes">List Recipes</a></li>
         <li><a href="/omelette">Chinese Omelette</a></li>
         <li><a href="/bananabread">Banana Bread</a></li>
+        <li><a href="/about">About</a></li>
     </ul>
 <!--    <h1 style="text-align:left">How to Make Banana Bread</h1>-->
 
+    <h2 class="country">Country of Origin: USA</h2>
+    <img class="flag" src="https://i1.wp.com/www.bpicustomprinting.com/wp-content/uploads/2016/01/USFLAG.png?fit=742%2C716&ssl=1"
+         alt="USA Flag">
+
     <h2>Ingredients</h2>
-    <ul class="ingredients">
-        <li>4 medium bananas (20 ounces; 565g), ripe but not fully black</li>
-        <li>4 ounces plain Greek yogurt (1/2 cup; 115g), preferably nonfat</li>
-        <li>2 large eggs, straight from the fridge</li>
-        <li> 1/2 ounce vanilla extract (1 tablespoon; 15g)    </li>
-        <li> 10 ounces all-purpose flour (2 cups; 280g)</li>
-        <li> 5 1/4 ounces sugar (3/4 cup; 150g), preferably toasted</li>
-        <li> 3 ounces oat flour (3/4 cup; 85g), such as Bob's Red Mill</li>
-        <li> 1 teaspoon baking powder</li>
-        <li> 1 teaspoon baking soda</li>
-        <li> 3/4 teaspoon (3g) Diamond Crystal kosher salt; for table salt, use half as much by volume or use the same weight</li>
-        <li> 3/4 teaspoon ground cinnamon</li>
-        <li> 1/2 teaspoon ground cloves</li>
-        <li> 1/4 teaspoon ground or grated nutmeg</li>
-        <li> 5 1/4 ounces coconut oil, virgin or refined (3/4 cup; 150g), creamy but firm, about 70°F</li>
-        <li> 6 ounces toasted pecan or other nut pieces (1 cup; 170g)</li>
-    </ul>
+    <div class="wellbananaing">
+        <ul class="ingredients">
+            <li>4 medium bananas (20 ounces; 565g), ripe but not fully black</li>
+            <li>4 ounces plain Greek yogurt (1/2 cup; 115g), preferably nonfat</li>
+            <li>2 large eggs, straight from the fridge</li>
+            <li> 1/2 ounce vanilla extract (1 tablespoon; 15g)    </li>
+            <li> 10 ounces all-purpose flour (2 cups; 280g)</li>
+            <li> 5 1/4 ounces sugar (3/4 cup; 150g), preferably toasted</li>
+            <li> 3 ounces oat flour (3/4 cup; 85g), such as Bob's Red Mill</li>
+            <li> 1 teaspoon baking powder</li>
+            <li> 1 teaspoon baking soda</li>
+            <li> 3/4 teaspoon (3g) Diamond Crystal kosher salt; for table salt, use half as much by volume or use the same weight</li>
+            <li> 3/4 teaspoon ground cinnamon</li>
+            <li> 1/2 teaspoon ground cloves</li>
+            <li> 1/4 teaspoon ground or grated nutmeg</li>
+            <li> 5 1/4 ounces coconut oil, virgin or refined (3/4 cup; 150g), creamy but firm, about 70°F</li>
+            <li> 6 ounces toasted pecan or other nut pieces (1 cup; 170g)</li>
+        </ul>
+    </div>
 
     <div class="row">
         <div class="column">
@@ -43,9 +52,13 @@
             <img id="oatmealbread" src="https://www.seriouseats.com/recipes/images/2013/02/20130222-banana-oatmeal-bread.jpg"
              alt="Banana oatmal bread" style="width:100%">
         </div>
+    </div>
 <!--    </div>-->
     <br />
+    <br />
+    <br />
     <h2 class="directions">Directions</h2>
+    <div class="wellbananadir">
         <p>Line a 10 1/2– by 5 1/2–inch loaf pan with a 9- by 13-inch sheet of parchment paper,
             or two 9- by 5-inch loaf pans with 7- by 13-inch sheets of parchment paper.
             Adjust oven rack to lower-middle position and preheat to 350°F. Peel bananas
@@ -60,6 +73,9 @@
         <p>For Banana Nut Muffins: Divide batter evenly among 12 lightly greased nonstick muffin cups, adding
             approximately 1/2 cup (4 ounces; 120g) to each cup. Bake until domed and just beginning to
             brown around the edges, about 25 minutes.</p>
-
+    </div>
+    <div class="well">
+        makes one 10.5 inch loaf, two 9-by-5-inch loaves, or 12 muffins
+    </div>
 </body>
 </html>

@@ -19,4 +19,9 @@ public class HomeController {
     public String omelette() {
         return "omelette";
     }
+
+    @RequestMapping("/listrecipes")
+    public String listrecipes() {
+        return "listrecipes";
+    }
 }
